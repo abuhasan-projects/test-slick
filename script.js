@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.slider').slick({
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 300,
     arrows: true,
@@ -42,3 +42,6 @@ $(document).ready(function () {
     ],
   });
 });
+
+
+console.log(document);
