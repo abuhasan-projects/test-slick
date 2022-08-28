@@ -1,0 +1,28 @@
+.accordion-item {
+    border: none !important;
+}
+.accordion-item .accordion-header {
+    /* border: none !important; */
+}
+.accordion-item .accordion-header .accordion-button {
+    /* border: none !important; */
+    /* background-color: red!important; */
+    /* box-shadow: 0px 1px 2px #707070 !important; */
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid #707070; */
+}
+.accordion-item .accordion-header .accordion-button span {
+    border-bottom: 1px solid #707070;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.accordion-item .accordion-header{
+    position: relative;
+}
+.accordion-item .accordion-header .accordion-button::after{
+    content: "";
+    right: 20px;
+    position: absolute;
+}
